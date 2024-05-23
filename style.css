@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#info-container, #dl-container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  margin: 10px auto;
+}
+
+#info-container > div {
+  border: 1px solid black;
+  background-color: #4901f0;
+  color: white;
+  padding: 5 px 10px;
+  text-decoration: none;
+  width: 140px;
+  margin: 10px auto;
+}

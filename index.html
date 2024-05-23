@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/compressor_icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Compressor App</title>
+  </head>
+  <body>
+    <h1>Image Compressor</h1>
+    <input type="file" accept="image/" id="image">
+    <br><br>
+    <!-- FILE SIZE  -->
+    <div id="info-container">
+        <div>Original Size<span id="original-size"></span></div>
+        <div>New Size<span id="new-size"></span></div>
+    </div>
+
+    <!-- DOWNLOAD LINK -->
+    <div id="dl-container">
+      <a id="download-link" href="#" download="output.png">Download Image</a>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
